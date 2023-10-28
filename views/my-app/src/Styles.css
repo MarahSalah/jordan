@@ -1,0 +1,28 @@
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: 800px;
+
+  background-color: #000000; /* لون الخلفية للفوتر */
+  color: white; /* لون النص في الفوتر */
+  text-align: center;
+  padding: 10px 0; /* هوامش داخلية للفوتر */
+}
+  
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.card {
+  margin: 10px;
+  width: calc(30% - 20px); /* 30% مع هامش 10px من الجانبين */
+}
+  .loginContainer {
+    transform: translateY(-50px); /* تحريك العنوان 50 بكسل لأعلى */
+    transition: transform 0.5s; /* الانتقال مع تأثير استمرارية لمدة 0.5 ثانية */
+  }
