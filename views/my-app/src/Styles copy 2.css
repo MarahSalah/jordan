@@ -1,0 +1,41 @@
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: 800px;
+
+  background-color: #000000; /* لون الخلفية للفوتر */
+  color: white; /* لون النص في الفوتر */
+  text-align: center;
+  padding: 10px 0; /* هوامش داخلية للفوتر */
+}
+  
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.card {
+  margin: 10px;
+  width: calc(30% - 20px); /* 30% مع هامش 10px من الجانبين */
+}
+  .loginContainer {
+    transform: translateY(-50px); /* تحريك العنوان 50 بكسل لأعلى */
+    transition: transform 0.5s; /* الانتقال مع تأثير استمرارية لمدة 0.5 ثانية */
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Travel-to-Jordan-_-Body-2-26-1-23-ar-1024x640.jpg'); /* استبدل 'اسم-الملف.jpg' بمسار واسم الصورة الخاصة بك */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }

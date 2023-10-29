@@ -1,0 +1,127 @@
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  border-top: 800px;
+
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+  
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.card {
+  margin: 10px;
+  width: calc(30% - 20px); 
+}
+  .loginContainer {
+    transform: translateY(-50px);
+    transition: transform 0.5s;
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Travel-to-Jordan-_-Body-2-26-1-23-ar-1024x640.jpg'); /* استبدل 'اسم-الملف.jpg' بمسار واسم الصورة الخاصة بك */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+  .registration-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/Travel-to-Jordan-_-Body-2-26-1-23-ar-1024x640.jpg');
+    background-size: cover;
+  }
+  
+  .registration-box {
+    background: rgb(250, 244, 244);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .registration-box h2 {
+    color: #333;
+  }
+  
+  .registration-box input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    width: 100%;
+  }
+  
+  .registration-box button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  .navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px; 
+    font-size: 16px;
+  }
+  
+  .navbar a {
+    color: white;
+    margin-right: 20px; 
+    text-decoration: none; 
+  }
+
+ .hero-text {
+  position: relative;
+  background-image: url('https://www.elitejo.com/sites/default/files/19258.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  z-index: 1;
+}
+
+.hero-text::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value for opacity */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
